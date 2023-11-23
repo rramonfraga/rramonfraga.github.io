@@ -1,1 +1,32 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Doofinder Test</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <script>
+      const dfLayerOptions = {
+        installationId: 'ed362ec7-ecda-42bf-ade4-580c3ad8ff48',
+        zone: 'eu1'
+      };
+    
+      (function (l, a, y, e, r, s) {
+        r = l.createElement(a); r.onload = e; r.async = 1; r.src = y;
+        s = l.getElementsByTagName(a)[0]; s.parentNode.insertBefore(r, s);
+      })(document, 'script', 'https://cdn.doofinder.com/livelayer/1/js/loader.min.js', function () {
+        doofinderLoader.load(dfLayerOptions);
+      });
+    </script>
+    
+
+    <h1>Doofider Test</h1>
+    <div class="box">
+        <i class="fa-brands fa-searching"></i>
+        <input id="mysearchbox" type="text" name="">
+    </div>
+  </body>
+</html>
